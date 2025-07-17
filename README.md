@@ -211,7 +211,7 @@ The NextStop system follows a **microservices architecture pattern** with the fo
 ### 👤 User Database (PostgreSQL)
 
 <div align="center">
-  <img src="./assets/userdb.png" alt="User Database Schema" width="600">
+  <img src="./assets/userdb.png" alt="User Database Schema" width="400">
   
   **User Management & Authentication**
 </div>
@@ -226,7 +226,7 @@ The NextStop system follows a **microservices architecture pattern** with the fo
 ### 🚌 Bus Database (PostgreSQL)
 
 <div align="center">
-  <img src="./assets/busdb.png" alt="Bus Database Schema" width="600">
+  <img src="./assets/busdb.png" alt="Bus Database Schema" width="400">
   
   **Fleet & Route Management**
 </div>
@@ -240,7 +240,7 @@ The NextStop system follows a **microservices architecture pattern** with the fo
 ### 🎫 Booking Database (PostgreSQL)
 
 <div align="center">
-  <img src="./assets/bookingdb.png" alt="Booking Database Schema" width="600">
+  <img src="./assets/bookingdb.png" alt="Booking Database Schema" width="400">
   
   **Reservation Management**
 </div>
@@ -252,7 +252,7 @@ The NextStop system follows a **microservices architecture pattern** with the fo
 ### 💳 Payment Database (PostgreSQL)
 
 <div align="center">
-  <img src="./assets/paymentdb.png" alt="Payment Database Schema" width="350">
+  <img src="./assets/paymentdb.png" alt="Payment Database Schema" width="200">
   
   **Payment Processing**
 </div>
