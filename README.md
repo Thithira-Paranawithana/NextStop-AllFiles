@@ -343,8 +343,8 @@ cd ../notification-service
 
 #### **5. Start Frontend**
 
-```bash
-cd frontend
+Frontend Repo Link - https://github.com/dilz2000/NextStop.git
+
 npm install
 npm run dev
 ```
