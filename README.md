@@ -73,7 +73,7 @@
 #### 🔍 **Smart Booking**
 - Search buses by route, date, and time
 - Interactive seat map with real-time availability
-- Advanced filtering options
+- Booking Cancellation & Advanced filtering options
 
 </td>
 <td width="50%">
@@ -228,7 +228,7 @@ The NextStop system follows a **microservices architecture pattern** with the fo
 <div align="center">
   <img src="./assets/busdb.png" alt="Bus Database Schema" width="400">
   
-  **Fleet & Route Management**
+  **Bus, Route & Schedule Management**
 </div>
 
 **Tables:**
@@ -345,6 +345,7 @@ cd ../notification-service
 
 Frontend Repo Link - https://github.com/dilz2000/NextStop.git
 
+```
 npm install
 npm run dev
 ```
@@ -379,10 +380,7 @@ npm run dev
 
 ### 📮 API Testing with Postman
 
-```bash
-# Import Postman collection
-postman-collection/NextStop-API-Tests.json
-```
+
 
 ### 🔍 Running Tests
 
