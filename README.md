@@ -417,19 +417,13 @@ We welcome contributions! Please follow these steps:
 <table>
 <tr>
 <td align="center">
-<img src="https://github.com/Thithira-Paranawithana.png" width="100px;" alt="Thithira Paranawithana"/><br />
 <b>Thithira Paranawithana</b><br />
-🚀 Lead Developer
 </td>
 <td align="center">
-<img src="https://github.com/Dilranga-Dissanayake.png" width="100px;" alt="Dilranga Dissanayake"/><br />
 <b>Dilranga Dissanayake</b><br />
-🔧 Backend Developer
 </td>
 <td align="center">
-<img src="https://github.com/Nipuni-Tennakoon.png" width="100px;" alt="Nipuni Tennakoon"/><br />
 <b>Nipuni Tennakoon</b><br />
-🎨 Frontend Developer
 </td>
 </tr>
 </table>
