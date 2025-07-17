@@ -252,7 +252,7 @@ The NextStop system follows a **microservices architecture pattern** with the fo
 ### 💳 Payment Database (PostgreSQL)
 
 <div align="center">
-  <img src="./assets/paymentdb.png" alt="Payment Database Schema" width="600">
+  <img src="./assets/paymentdb.png" alt="Payment Database Schema" width="350">
   
   **Payment Processing**
 </div>
