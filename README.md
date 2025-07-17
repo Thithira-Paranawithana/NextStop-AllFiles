@@ -1,209 +1,296 @@
-NextStop - Microservices-based Bus Ticket Reservation System
+# NextStop - Microservices-based Bus Ticket Reservation System
 
+<div align="center">
+  <img src="./assets/nextstop_icon.jpg" alt="NextStop Logo" width="200" height="200">
+  
+  ### 🚌 *Bus Ticket Reservation System*
+  
+  [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5-brightgreen.svg)](https://spring.io/projects/spring-boot)
+  [![React](https://img.shields.io/badge/React-18-blue.svg)](https://reactjs.org/)
+  [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17-336791.svg)](https://www.postgresql.org/)
+  [![Java](https://img.shields.io/badge/Java-21-orange.svg)](https://www.oracle.com/java/)
+  
+  ---
+  
+  **A scalable, secure, and user-friendly bus reservation platform**
+  
+</div>
 
-<div align="center"> <img src="./assets/nextstop_icon.jpg" alt="NextStop Logo" width="200" height="200">
-Smart Bus Ticket Reservation System
-[
-[
-[
-[
-[
+---
+
+## 📋 Table of Contents
+
+- [🚀 Overview](#-overview)
+- [🌟 Key Highlights](#-key-highlights)
+- [✨ Features](#-features)
+- [🛠️ Technology Stack](#️-technology-stack)
+- [🏗️ System Architecture](#️-system-architecture)
+- [🗄️ Database Design](#️-database-design)
+- [🚀 Getting Started](#-getting-started)
+- [📸 Screenshots](#-screenshots)
+- [🧪 Testing](#-testing)
+- [🤝 Contributing](#-contributing)
+- [👥 Team](#-team)
+- [🙏 Acknowledgments](#-acknowledgments)
+
+---
+
+## 🚀 Overview
+
+**NextStop** is a modern, distributed microservices-based bus ticket reservation system that streamlines the entire booking process from seat selection to payment confirmation. Built with Spring Boot microservices architecture and a responsive React.js frontend, it provides a seamless experience for passengers while offering robust management capabilities for bus operators.
+
+---
+
+## 🌟 Key Highlights
+
+<div align="center">
+
+| Feature | Description |
+|---------|-------------|
+| 🏗️ **Microservices Architecture** | Scalable and maintainable distributed system |
+| ⚡ **Real-time Operations** | Live seat availability and instant booking confirmations |
+| 🔐 **Secure Payments** | Integrated Stripe payment gateway with test environment |
+| 📱 **User-Friendly Interface** | Responsive design across all devices |
+| 📧 **Email Notifications** | Automated booking confirmations and verification emails |
 
 </div>
-📋 Table of Contents
-Overview
 
-Features
+---
 
-Technology Stack
+## ✨ Features
 
-System Architecture
+### 👥 For Passengers
 
-Database Design
+<table>
+<tr>
+<td width="50%">
 
-Getting Started
+#### 🔐 **Authentication & Security**
+- Secure registration and login with JWT tokens
+- Email verification system
+- Password reset functionality
 
-Screenshots
+#### 🔍 **Smart Booking**
+- Search buses by route, date, and time
+- Interactive seat map with real-time availability
+- Advanced filtering options
 
-Testing
+</td>
+<td width="50%">
 
-Contributing
+#### 💳 **Payment & Tickets**
+- Stripe integration with multiple payment options
+- Secure payment processing
+- Digital tickets in PDF format
 
-Team
+#### 📱 **User Experience**
+- Responsive design across all devices
+- Booking history and management
+- Email notifications for confirmations
 
-Acknowledgments
+</td>
+</tr>
+</table>
 
-🚀 Overview
-NextStop is a modern, distributed microservices-based bus ticket reservation system that streamlines the entire booking process from seat selection to payment confirmation. Built with Spring Boot microservices architecture and a responsive React.js frontend, it provides a seamless experience for passengers while offering robust management capabilities for bus operators.
+### 👨‍💼 For Administrators
 
-🌟 Key Highlights
-Microservices Architecture: Scalable and maintainable distributed system
+<table>
+<tr>
+<td width="50%">
 
-Real-time Operations: Live seat availability and instant booking confirmations
+#### 🚌 **Fleet Management**
+- Add, edit, and manage bus information
+- Configure routes and schedules
+- Seat configuration management
 
-Secure Payments: Integrated Stripe payment gateway with test environment
+</td>
+<td width="50%">
 
-User-Friendly Interface: Responsive design across all devices
+#### 📊 **Analytics & Control**
+- Real-time dashboard with analytics
+- User account management
+- Comprehensive booking oversight
 
-Email Notifications: Automated booking confirmations and verification emails
+</td>
+</tr>
+</table>
 
-✨ Features
-👥 For Passengers
-🔐 User Authentication: Secure registration and login with JWT tokens
+---
 
-🔍 Smart Search: Search buses by route, date, and time
+## 🛠️ Technology Stack
 
-💺 Seat Selection: Interactive seat map with real-time availability
+### 🔧 Backend Technologies
 
-💳 Secure Payment: Stripe integration with multiple payment options
+<div align="center">
 
-📧 Email Notifications: Booking confirmations and verification emails
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| ☕ **Spring Boot** | 3.5 | Application Framework |
+| 🟨 **Java** | 21 | Programming Language |
+| ☁️ **Spring Cloud** | 2025.0.0 | Microservices Architecture |
+| 🔍 **Netflix Eureka** | Latest | Service Discovery |
+| 🚪 **Spring Cloud Gateway** | Latest | API Gateway |
+| 🐘 **PostgreSQL** | 17 | Database |
+| 🔑 **JWT** | Latest | Authentication |
+| 💳 **Stripe API** | Latest | Payment Processing |
+| 📧 **Spring Mail** | Latest | Email Service |
 
-📱 Responsive Design: Seamless experience across devices
+</div>
 
-🎫 Digital Tickets: Download tickets in PDF format
+### 🎨 Frontend Technologies
 
-📋 Booking History: View and manage past bookings
+<div align="center">
 
-👨‍💼 For Administrators
-🚌 Bus Management: Add, edit, and manage bus information
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| ⚛️ **React.js** | 18 | Frontend Framework |
+| 📘 **TypeScript** | Latest | Programming Language |
+| 🎨 **Tailwind CSS** | Latest | Styling Framework |
+| 🪝 **React Hooks** | Latest | State Management |
+| 🌐 **Axios** | Latest | HTTP Client |
+| 📄 **jsPDF** | Latest | PDF Generation |
 
-🛣️ Route Management: Configure routes and schedules
+</div>
 
-📊 Dashboard: Real-time analytics and reporting
+### 🏗️ Infrastructure
 
-👥 User Management: Handle user accounts and permissions
+<div align="center">
 
-📋 Booking Management: Monitor and manage all bookings
+| Component | Purpose |
+|-----------|---------|
+| 🔍 **Netflix Eureka Server** | Service Registry |
+| 🚪 **Spring Cloud Gateway** | Load Balancing |
+| 🐳 **Docker** | Containerization |
+| 📮 **Postman** | API Testing |
+| 🔄 **Git** | Version Control |
 
-🛠️ Technology Stack
-Backend
-Spring Boot 3.5 - Application Framework
+</div>
 
-Java 21 - Programming Language
+---
 
-Spring Cloud 2025.0.0 - Microservices Architecture
+## 🏗️ System Architecture
 
-Netflix Eureka - Service Discovery
+<div align="center">
+  <img src="./assets/architecture.png" alt="System Architecture" width="800">
+  
+  ### *Microservices Architecture Overview*
+</div>
 
-Spring Cloud Gateway - API Gateway
+The NextStop system follows a **microservices architecture pattern** with the following components:
 
-PostgreSQL 17 - Database
+### 🎯 Core Services
 
-JWT - Authentication
+<div align="center">
 
-Stripe API - Payment Processing
+| Service | Port | Responsibility |
+|---------|------|---------------|
+| 👤 **User Service** | 8095 | User authentication, registration, and profile management |
+| 🚌 **Bus Service** | 8090 | Bus information, routes, and schedules management |
+| 🎫 **Booking Service** | 8765 | Seat bookings and availability processing |
+| 💳 **Payment Service** | 8080 | Payment processing with Stripe integration |
+| 📧 **Notification Service** | 8082 | Email notifications management |
 
-Spring Mail - Email Service
+</div>
 
-Frontend
-React.js - Frontend Framework
+### 🌐 Infrastructure Components
 
-TypeScript - Programming Language
+<div align="center">
 
-Tailwind CSS - Styling Framework
+| Component | Port | Function |
+|-----------|------|----------|
+| 🔍 **Eureka Server** | 8761 | Service discovery and registration |
+| 🚪 **API Gateway** | 8765 | Centralized routing and load balancing |
+| 🎨 **Frontend Application** | 5173 | React.js user interface |
 
-React Hooks - State Management
+</div>
 
-Axios - HTTP Client
+---
 
-jsPDF - PDF Generation
+## 🗄️ Database Design
 
-Infrastructure
-Netflix Eureka Server - Service Registry
+### 👤 User Database (PostgreSQL)
 
-Spring Cloud Gateway - Load Balancing
+<div align="center">
+  <img src="./assets/userdb.png" alt="User Database Schema" width="600">
+  
+  **User Management & Authentication**
+</div>
 
-Docker - Containerization
+**Tables:**
+- 👥 `users` - User account information
+- 🔐 `roles` - User roles (CUSTOMER, ADMIN, OPERATOR)
+- 🔗 `user_roles` - User-role mapping
+- 🔄 `refresh_tokens` - JWT refresh tokens
+- ✅ `verification_tokens` - Email verification tokens
 
-Postman - API Testing
+### 🚌 Bus Database (PostgreSQL)
 
-Git - Version Control
+<div align="center">
+  <img src="./assets/busdb.png" alt="Bus Database Schema" width="600">
+  
+  **Fleet & Route Management**
+</div>
 
-🏗️ System Architecture
-<div align="center"> <img src="./assets/architecture.png" alt="System Architecture" width="800"> </div>
-The NextStop system follows a microservices architecture pattern with the following components:
+**Tables:**
+- 🚌 `buses` - Bus information and specifications
+- 🛣️ `routes` - Bus routes between cities
+- 📅 `schedules` - Bus schedule information
+- 💺 `seats` - Seat configuration for each bus
 
-Core Services
-User Service (Port: 8095) - User authentication, registration, and profile management
+### 🎫 Booking Database (PostgreSQL)
 
-Bus Service (Port: 8090) - Bus information, routes, and schedules management
+<div align="center">
+  <img src="./assets/bookingdb.png" alt="Booking Database Schema" width="600">
+  
+  **Reservation Management**
+</div>
 
-Booking Service (Port: 8765) - Seat bookings and availability processing
+**Tables:**
+- 📋 `bookings` - Booking records and details
+- 💺 `booking_seats` - Seat reservations for bookings
 
-Payment Service (Port: 8080) - Payment processing with Stripe integration
+### 💳 Payment Database (PostgreSQL)
 
-Notification Service (Port: 8082) - Email notifications management
+<div align="center">
+  <img src="./assets/paymentdb.png" alt="Payment Database Schema" width="600">
+  
+  **Payment Processing**
+</div>
 
-Infrastructure Components
-Eureka Server (Port: 8761) - Service discovery and registration
+**Tables:**
+- 💰 `payments` - Payment transaction records
+- 💳 `payment_methods` - Supported payment methods
 
-API Gateway (Port: 8765) - Centralized routing and load balancing
+---
 
-Frontend Application (Port: 5173) - React.js user interface
+## 🚀 Getting Started
 
-🗄️ Database Design
-User Database (PostgreSQL)
-<div align="center"> <img src="./assets/userdb.png" alt="User Database Schema" width="600"> </div>
-Tables:
+### 📋 Prerequisites
 
-users: User account information
+<div align="center">
 
-roles: User roles (CUSTOMER, ADMIN, OPERATOR)
+| Requirement | Version | Download |
+|-------------|---------|----------|
+| ☕ **Java** | 21+ | [Download Java](https://adoptium.net/) |
+| 🟢 **Node.js** | 18+ | [Download Node.js](https://nodejs.org/) |
+| 🐘 **PostgreSQL** | 15+ | [Download PostgreSQL](https://www.postgresql.org/) |
+| 🐳 **Docker** | Latest (Optional) | [Download Docker](https://www.docker.com/) |
+| 📂 **Git** | Latest | [Download Git](https://git-scm.com/) |
 
-user_roles: User-role mapping
+</div>
 
-refresh_tokens: JWT refresh tokens
+### 🔧 Installation
 
-verification_tokens: Email verification tokens
+#### **1. Clone the Repository**
 
-Bus Database (PostgreSQL)
-<div align="center"> <img src="./assets/busdb.png" alt="Bus Database Schema" width="600"> </div>
-Tables:
-
-buses: Bus information and specifications
-
-routes: Bus routes between cities
-
-schedules: Bus schedule information
-
-seats: Seat configuration for each bus
-
-Booking Database (PostgreSQL)
-<div align="center"> <img src="./assets/bookingdb.png" alt="Booking Database Schema" width="600"> </div>
-Tables:
-
-bookings: Booking records and details
-
-booking_seats: Seat reservations for bookings
-
-Payment Database (PostgreSQL)
-<div align="center"> <img src="./assets/paymentdb.png" alt="Payment Database Schema" width="600"> </div>
-Tables:
-
-payments: Payment transaction records
-
-payment_methods: Supported payment methods
-
-🚀 Getting Started
-Prerequisites
-☕ Java 21 or higher
-
-🟢 Node.js 18 or higher
-
-🐘 PostgreSQL 15
-
-🐳 Docker (optional)
-
-📂 Git
-
-Installation
-1. Clone the repository
-bash
+```bash
 git clone https://github.com/Thithira-Paranawithana/NextStop-AllFiles.git
 cd nextstop-bus-reservation
-2. Setup Databases
-bash
+```
+
+#### **2. Setup Databases**
+
+```bash
 # Create databases
 createdb userdb
 createdb busdb
@@ -215,14 +302,20 @@ psql -d userdb -f NextStop-DB/userdb.sql
 psql -d busdb -f NextStop-DB/busdb.sql
 psql -d bookingdb -f NextStop-DB/bookingdb.sql
 psql -d paymentdb -f NextStop-DB/paymentdb.sql
-3. Configure Environment Variables
-bash
+```
+
+#### **3. Configure Environment Variables**
+
+```properties
 # Update application.properties for each service
 spring.datasource.url=jdbc:postgresql://localhost:5432/userdb
 spring.datasource.username=your_username
 spring.datasource.password=your_password
-4. Start Services (in order)
-bash
+```
+
+#### **4. Start Services (in order)**
+
+```bash
 # 1. Start Eureka Server
 cd eureka-server
 ./mvnw spring-boot:run
@@ -246,60 +339,130 @@ cd ../payment-service
 
 cd ../notification-service
 ./mvnw spring-boot:run
-5. Start Frontend
-bash
+```
+
+#### **5. Start Frontend**
+
+```bash
 cd frontend
 npm install
 npm run dev
-6. Access the Application
-🌐 Frontend: http://localhost:5173
+```
 
-📊 Eureka Dashboard: http://localhost:8761
+#### **6. Access the Application**
 
-🚪 API Gateway: http://localhost:8765
+<div align="center">
 
-📸 Screenshots
-Landing Page
-<div align="center"> <img src="./assets/landing_page.png" alt="Landing Page" width="800"> </div>
-🧪 Testing
-API Testing with Postman
-bash
+| Service | URL | Description |
+|---------|-----|-------------|
+| 🌐 **Frontend** | http://localhost:5173 | Main Application |
+| 📊 **Eureka Dashboard** | http://localhost:8761 | Service Registry |
+| 🚪 **API Gateway** | http://localhost:8765 | API Gateway |
+
+</div>
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Landing Page
+
+<div align="center">
+  <img src="./assets/landing_page.png" alt="Landing Page" width="800">
+  
+  **Modern and Intuitive User Interface**
+</div>
+
+---
+
+## 🧪 Testing
+
+### 📮 API Testing with Postman
+
+```bash
 # Import Postman collection
 postman-collection/NextStop-API-Tests.json
-Running Tests
-bash
+```
+
+### 🔍 Running Tests
+
+```bash
 # Backend tests
 ./mvnw test
 
 # Frontend tests
 npm test
-🤝 Contributing
-Fork the repository
+```
 
-Create a feature branch (git checkout -b feature/AmazingFeature)
+---
 
-Commit your changes (git commit -m 'Add some AmazingFeature')
+## 🤝 Contributing
 
-Push to the branch (git push origin feature/AmazingFeature)
+We welcome contributions! Please follow these steps:
 
-Open a Pull Request
+1. 🍴 **Fork** the repository
+2. 🌿 **Create** a feature branch (`git checkout -b feature/AmazingFeature`)
+3. 💾 **Commit** your changes (`git commit -m 'Add some AmazingFeature'`)
+4. 📤 **Push** to the branch (`git push origin feature/AmazingFeature`)
+5. 🔄 **Open** a Pull Request
 
-👥 Team
+---
+
+## 👥 Team
+
 <div align="center">
-Thithira Paranawithana 
 
-Dilranga Dissanayake 
+### 🌟 **Development Team**
 
-Nipuni Tennakoon 
+<table>
+<tr>
+<td align="center">
+<img src="https://github.com/Thithira-Paranawithana.png" width="100px;" alt="Thithira Paranawithana"/><br />
+<b>Thithira Paranawithana</b><br />
+🚀 Lead Developer
+</td>
+<td align="center">
+<img src="https://github.com/Dilranga-Dissanayake.png" width="100px;" alt="Dilranga Dissanayake"/><br />
+<b>Dilranga Dissanayake</b><br />
+🔧 Backend Developer
+</td>
+<td align="center">
+<img src="https://github.com/Nipuni-Tennakoon.png" width="100px;" alt="Nipuni Tennakoon"/><br />
+<b>Nipuni Tennakoon</b><br />
+🎨 Frontend Developer
+</td>
+</tr>
+</table>
 
 </div>
-🙏 Acknowledgments
-🍃 Spring Boot Team for the excellent microservices framework
 
-⚛️ React.js Community for the powerful frontend library
+---
 
-💳 Stripe for the payment integration
+## 🙏 Acknowledgments
 
-🐘 PostgreSQL for the robust database system
+<div align="center">
 
-<div align="center"> <h3>Made with ❤️ by the NextStop Team</h3> <p>© 2025 NextStop. All rights reserved.</p> </div>
+### 🎯 **Special Thanks**
+
+| Technology | Contribution |
+|------------|-------------|
+| 🍃 **Spring Boot Team** | Excellent microservices framework |
+| ⚛️ **React.js Community** | Powerful frontend library |
+| 💳 **Stripe** | Seamless payment integration |
+| 🐘 **PostgreSQL** | Robust database system |
+
+</div>
+
+---
+
+<div align="center">
+
+### 🚌 **NextStop - Connecting Journeys, One Click at a Time**
+
+---
+
+<h3>Made with ❤️ by the NextStop Team</h3>
+
+**© 2025 NextStop. All rights reserved.**
+
+</div>
