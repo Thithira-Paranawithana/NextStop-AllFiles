@@ -29,7 +29,6 @@
 - [🚀 Getting Started](#-getting-started)
 - [📸 Screenshots](#-screenshots)
 - [🧪 Testing](#-testing)
-- [🤝 Contributing](#-contributing)
 - [👥 Team](#-team)
 - [🙏 Acknowledgments](#-acknowledgments)
 
@@ -379,30 +378,6 @@ npm run dev
 ## 🧪 Testing
 
 ### 📮 API Testing with Postman
-
-
-
-### 🔍 Running Tests
-
-```bash
-# Backend tests
-./mvnw test
-
-# Frontend tests
-npm test
-```
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. 🍴 **Fork** the repository
-2. 🌿 **Create** a feature branch (`git checkout -b feature/AmazingFeature`)
-3. 💾 **Commit** your changes (`git commit -m 'Add some AmazingFeature'`)
-4. 📤 **Push** to the branch (`git push origin feature/AmazingFeature`)
-5. 🔄 **Open** a Pull Request
 
 ---
 
