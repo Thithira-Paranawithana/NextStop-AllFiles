@@ -49,7 +49,7 @@
 | 🏗️ **Microservices Architecture** | Scalable and maintainable distributed system |
 | ⚡ **Real-time Operations** | Live seat availability and instant booking confirmations |
 | 🔐 **Secure Payments** | Integrated Stripe payment gateway with test environment |
-| 📱 **User-Friendly Interface** | Responsive design across all devices |
+| 📱 **User-Friendly Interface** | Responsive web design |
 | 📧 **Email Notifications** | Automated booking confirmations and verification emails |
 
 </div>
